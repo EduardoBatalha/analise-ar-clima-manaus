@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define M_SECOS 10       // quantos dias mais secos listar
+#define M_SECOS 10       // Quantidade de menores valores de umidade a serem exibidos
 #define MAX_DADOS 10500  // capacidade dos vetores (os arquivos têm até 10.000)
 
 typedef struct {
@@ -8,7 +8,7 @@ typedef struct {
     float temperaturas_c;
     int umidade;
     float particulas25;
-} Registro; // apelido que dei pra struct
+} Registro; // Define o tipo registro para armazenar dados ambientais
 
 long long comparacoes = 0;
 
